@@ -8,6 +8,25 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <script src="content-loader.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .cv-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .cv-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .cv-box a {
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
 
@@ -58,14 +77,22 @@
             <h1 class="mt-4" id="profile-name">Παπακωνσταντίνου Αντώνιος</h1>
             <p class="lead" id="profile-degree">Απόφοιτος - Τμήμα Ψηφιακών Συστημάτων, Πανεπιστήμιο Πειραιά</p>
             <p class="lead" id="profile-profession">Μηχανικός Λογισμικού / Μηχανικός Πληροφορικής</p>
-            <div class="mt-4">
-                <a href="arxeia/antonis_cv.pdf" class="btn btn-outline-light me-2" id="btn-resume">Βιογραφικό (Ελληνικό)</a>
-                <a href="arxeia/antonis_pap_cv.pdf" class="btn btn-outline-light me-2" id="btn-resume">Βιογραφικό (Αγγλικό)</a>
-                <a href="arxeia/cv_europass_antonis.pdf" class="btn btn-outline-light me-2" id="btn-resume">Βιογραφικό EUROPASS</a>
-                <a href="mailto:antonhspap@icloud.com" class="btn btn-outline-light" id="btn-email">Email</a>
+
+            <div class="d-flex justify-content-center flex-wrap mt-4">
+                <div class="cv-box">
+                    <a href="arxeia/antonis_cv.pdf" id="btn-resume">Βιογραφικό (Ελληνικό)</a>
+                </div>
+                <div class="cv-box">
+                    <a href="arxeia/antonis_pap_cv.pdf" id="btn-resume">Βιογραφικό (Αγγλικό)</a>
+                </div>
+                <div class="cv-box">
+                    <a href="arxeia/cv_europass_antonis.pdf" id="btn-resume">Βιογραφικό EUROPASS</a>
+                </div>
+                <div class="cv-box">
+                    <a href="mailto:antonhspap@icloud.com" id="btn-email">Email</a>
+                </div>
             </div>
         </div>
-        
     </div>
 
     <footer class="text-center mt-auto py-3 text-muted">
