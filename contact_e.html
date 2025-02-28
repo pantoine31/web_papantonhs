@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="language.js" defer></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -18,25 +19,30 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About Me</a>
+                        <a class="nav-link" href="index_e.html">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact_e.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
+                        <a class="nav-link" href="projects_e.html">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="systatikes.html" id="nav-recommendations">Recommendations</a>
+                        <a class="nav-link" href="systatikes_e.html" id="nav-recommendations">Recommendations</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-4">
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html"><img src="arxeia/greekF.png" alt="Greek" style="width: 24px; height: 24px;"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact_e.html"><img src="arxeia/englishF.png" alt="English" style="width: 24px; height: 24px;"></a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" onclick="changeLanguage('el')">
+                                <img src="arxeia/greekF.png" alt="Greek" style="width: 24px; height: 24px;">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact_e.html" onclick="changeLanguage('en')">
+                                <img src="arxeia/englishF.png" alt="English" style="width: 24px; height: 24px;">
+                            </a>
+                        </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://github.com/pantoine31" target="_blank"><i class="bi bi-github"></i></a>
                     </li>
