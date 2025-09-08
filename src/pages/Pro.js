@@ -3,13 +3,11 @@ import "../pages/Pro.css";
 
 const experiences = [
     {
-    title: "Military Service – Software Development Role",
-    company: "Hellenic Army | KEPYES",
-    location: "225 Mesogeion, Cholargos, 15561, ATTICA",
-    date: "Nov 2024 – Aug 2025 (9 Months) ",
-    description:
-      "Completed mandatory military service in the Hellenic Armed Forces, gaining hands-on experience in military communication systems, information systems maintenance, and web development. Developed skills in system reliability, team collaboration, and resolving technical challenges in high-pressure environments. Adapted to structured workflows and discipline while contributing to mission-critical operations."
-  },
+    title: "Junior Frontend Engineer",
+    company: "NETCOMPANY",
+    location: "13 Fragkokklisias str., 15125, Maroussi, Athens, GREECE",
+    date: "Sept 2025 – NOW ",
+    description:"Junior Frontend Developer with experience in building responsive React applications. Skilled in JavaScript, HTML, CSS, and state management with Redux. Collaborates well with teams to create user-friendly interfaces and writes clean, maintainable code. Familiar with debugging and optimizing performance for seamless user experiences."  },
   {
     title: "Military Service – Software Development Role",
     company: "Hellenic Army | KEPYES",
